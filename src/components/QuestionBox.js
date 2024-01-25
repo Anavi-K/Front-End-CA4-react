@@ -1,3 +1,5 @@
+// QuestionBox.js
+
 import React, { useState, useEffect } from 'react';
 import './QuestionBox.css';
 
@@ -28,9 +30,7 @@ const QuestionBox = ({ question, totalQuestions, onAnswer, currentQuestion }) =>
   return (
     <div className="question-box">
       <div className="question-info">
-        <p
-          className={`question-text ${isHighlighted ? 'highlighted' : ''}`}
-        >
+        <p className={`question-number ${isHighlighted ? 'highlighted' : ''}`}>
           Question: {currentQuestion} out of {totalQuestions}
         </p>
         <p className={`question-text ${isHighlighted ? 'highlighted' : ''}`}>

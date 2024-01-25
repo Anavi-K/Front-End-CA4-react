@@ -1,4 +1,6 @@
-.question-box{
+/* QuestionBox.css */
+
+.question-box {
   width: 50%;
   margin: 50px auto;
   padding: 20px;
@@ -8,32 +10,22 @@
   color: #ffffff;
   text-align: center;
 }
-  
-.question-box h2{
-  margin-bottom: 10px;
+
+.question-text.highlighted {
+  color: #ff0000;
 }
 
-.question-options button{
-  display: block;
-  margin-bottom: 10px;
-  padding: 8px;
-}
-
-.question-text.highlighted{
-  color: #ff0000; 
-}
-
-.question-info{
+.question-info {
   margin-bottom: 20px;
 }
-  
-.options{
+
+.options {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
-  
-.option{
+
+.option {
   cursor: pointer;
   padding: 10px;
   margin-bottom: 10px;
@@ -41,18 +33,31 @@
   border-radius: 5px;
   background-color: #DCF2F1;
   color: #000000;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-  
-.option.selected{
+
+.option:hover {
+  background-color: #0f015f;
+  color: #ffffff;
+}
+
+.option.selected {
   background-color: #ffffff;
   color: #3498db;
 }
-  
-.highlight-buttons button{
+
+.highlight-buttons button {
   margin: 5px;
   padding: 5px 10px;
   cursor: pointer;
   background-color: #ff5656;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.highlight-buttons button:hover {
+  background-color: #a20000;
   color: #ffffff;
 }
 

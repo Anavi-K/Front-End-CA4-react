@@ -23,4 +23,11 @@ p{
   padding: 10px;
   background-color: #ff5656;
   color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.score-box button:hover {
+  background-color: #a20000;
+  color: #ffffff;
 }
