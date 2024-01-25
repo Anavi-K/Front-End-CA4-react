@@ -1,0 +1,15 @@
+.app{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+  
+.dark-mode {
+  background-color: #323232;
+  color: #ffffff;
+}

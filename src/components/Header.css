@@ -1,0 +1,26 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #797979; 
+  height: 3em;
+}
+
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.toggle-button{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+}

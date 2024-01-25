@@ -1,0 +1,26 @@
+.result-screen{
+  margin-top: 20px;
+}
+
+.score-box{
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #05008f;
+  border-radius: 10px;
+  background-color: #38469A;
+  color: #ffffff;
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+}
+
+.score-box button {
+  margin-top: 15px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ff5656;
+  color: #ffffff;
+}
